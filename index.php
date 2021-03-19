@@ -12,5 +12,10 @@
   <p>Country: Kyrgyzstan.</p>
   <p>Job: Secret Agent.</p>
   <img src = "image.jpeg">
+  <h1>My registration</h1>
+   <label for="email"><b>login or email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+  <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
  </body>
 </html>
