@@ -11,10 +11,9 @@
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-
+    <br>
     <button type="submit" value="Submit">Submit</button> 
     <br>
     <button type="reset" value="Reset">Clear</button>
