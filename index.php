@@ -3,18 +3,17 @@
  <head>
   <title>Edu Shakirov</title>
  </head>
- <body class="qwety" style="background-color:#f1da36;">
-  <h1>The best student</h1>
+ <body style="background-color:powderblue;">
+  <h1  class ="b"align="center">The best student</h1>
  <form action="main.php">
-  <div class="container">
-    <h1>Register</h1>
-    <label for="Eldiyar"><b>login</b></label>
-    <input type="text" placeholder="Enter Email" class="name" id="name" name="name" required>
-    <label for="1234"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" class="pass" id="pass" name="pass"required>
-    <br>
-    <button type="submit" value="Submit">Submit</button> 
-    <button type="reset" value="Reset">Clear</button>
+  <div class="container" align="center">
+    <h1 align="center">Avtorизейшн</h1>
+    <label align="center" for="Eldiyar"><b>Username</b></label>
+    <input align="center" type="text" placeholder="Enter Email" class="name" id="name" name="name" required><br/><br/>
+    <label align="center" for="1234"><b>Password </b></label>
+    <input align="center" type="password" placeholder="Enter Password" class="pass" id="pass" name="pass"required><br/><br/>
+    <button align="center" type="submit" value="Submit">Submit</button>
+    <button align="center" type="reset" value="Reset">Clear</button><br/><br/>
     </div>
 </form>
     <script>
@@ -32,6 +31,14 @@
     };
     
   </script> 
+
+  <style>
+   .container {
+   background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+   border-radius: 25px;
+   width: 700px;
+   margin: auto;
+   }
+  </style>
  </body>
 </html>
-
