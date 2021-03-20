@@ -3,7 +3,8 @@
  <head>
   <title>Edu Shakirov</title>
  </head>
- <body style="background-color:red;">
+ <body style="background-color:;">
+  <div style="background-image: url('https://yandex.ru/images/search?pos=2&from=tabbar&img_url=https%3A%2F%2Fwww.ppt-backgrounds.net%2Fthumbs%2Fwallpaper-web-fractal21s-3dfiction-images-4k-full---design-ppt.jpeg&text=фоновое+красивое+изображение+для+сайта&rpt=simage');">
   <h1>The best student</h1>
  <form action="main.php">
   <div class="container">
@@ -33,6 +34,5 @@
     
   </script> 
  </body>
-</html>
 </html>
 
