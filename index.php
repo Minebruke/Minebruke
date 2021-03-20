@@ -3,7 +3,7 @@
  <head>
   <title>Edu Shakirov</title>
  </head>
- <body style="background-color:powderblue;">
+ <body class="fone">
   <h1  class ="b"align="center">The best student</h1>
  <form action="main.php">
   <div class="container" align="center">
@@ -33,6 +33,21 @@
   </script> 
 
   <style>
+   .container {
+   background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+   border-radius: 25px;
+   width: 700px;
+   margin: auto;
+   }
+   .fone {
+    background-image: url(back.jpg);
+}
+  .b {
+    color: white;
+}
+  </style>
+ </body>
+</html>
    .container {
    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
    border-radius: 25px;
