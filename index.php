@@ -15,8 +15,23 @@
     <br>
     <button type="submit" value="Submit">Submit</button> 
     <button type="reset" value="Reset">Clear</button>
+    </div>
+</form>
+    <script>
+  
+      document.forms[0].onsubmit = function(e){
+        let login = document.getElementById('fname').value;
+        let password = document.getElementById('fpass').value;
+ 
+        if ( login === "Eldiyar" && password === "1234") 
+            alert("Welcome");
+        else {
+            e.preventDefault();
+            alert("Глаза раскрой и пиши правильный пароль или логин");
+        }
+    };
     
-  </div>
-</form> 
+  </script> 
  </body>
 </html>
+
