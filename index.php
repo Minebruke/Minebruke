@@ -38,7 +38,7 @@
    border-radius: 25px;
    width: 700px;
    margin: auto;
-   }
+}
    .fone {
     background-image: url(back.jpg);
 }
@@ -46,14 +46,6 @@
     color: white;
 }
   </style>
- </body>
-</html>
-   .container {
-   background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-   border-radius: 25px;
-   width: 700px;
-   margin: auto;
-   }
-  </style>
+  
  </body>
 </html>
