@@ -1,51 +1,56 @@
 <!DOCTYPE HTML>
 <html>
  <head>
-  <title>Edu Shakirov</title>
+ <title>Edu Shakirov</title>
  </head>
  <body class="fone">
   <h1  class ="b"align="center">The best student</h1>
- <form action="main.php">
-  <div class="container" align="center">
-    <h1 align="center">Avtorизейшн</h1>
-    <label align="center" for="Eldiyar"><b>Username</b></label>
-    <input align="center" type="text" placeholder="Enter Email" class="name" id="name" name="name" required><br/><br/>
-    <label align="center" for="1234"><b>Password </b></label>
-    <input align="center" type="password" placeholder="Enter Password" class="pass" id="pass" name="pass"required><br/><br/>
-    <button align="center" type="submit" value="Submit">Submit</button>
-    <button align="center" type="reset" value="Reset">Clear</button><br/><br/>
-    </div>
-</form>
-    <script>
-  
-      document.forms[0].onsubmit = function(e){
-        let login = document.getElementById('name').value;
-        let password = document.getElementById('pass').value;
- 
-        if ( login === "Eldiyar" && password === "1234") 
-            alert("Welcome");
-        else {
-            e.preventDefault();
-            alert("Глаза раскрой и пиши правильный пароль или логин");
-        }
-    };
-    
-  </script> 
+  <formaction="main.php">
+ <div class="container" align="center">
+ <title>Shakirov Eldiyar SCA-18</title>
+</head>
+<body>
 
-  <style>
-   .container {
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col">
+        <h1>Регистрейшн</h1>
+        <form action="check.php" method="post">
+          <input type="text" name="login" class="form-control" id="login" placeholder="Логин"><br>
+          <input type="text" name="name" class="form-control" id="name" placeholder="Имя"><br>
+          <input type="password" name="pass" class="form-control" id="pass" placeholder="Пароль"><br>
+          <button class="btn btn-success">Регистрация</button><br>
+        </form> 
+      </div>
+      
+      <div class="col">
+        <h1>Авторизейшн</h1>
+        <form action="auth.php" method="post">
+          <input type="text" name="login" class="form-control" id="login" placeholder="Логин"><br>
+          <input type="password" name="pass" class="form-control" id="pass" placeholder="Пароль"><br>
+          <button class="btn btn-success">Войти</button><br>
+        </form> 
+      </div>
+
+    </div>
+  </div>
+ </div>
+</form>
+
+ <style>
+ .container {
    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
    border-radius: 25px;
    width: 700px;
    margin: auto;
 }
-   .fone {
+ .fone {
     background-image: url(back.jpg);
 }
-  .b {
+ .b {
     color: white;
 }
-  </style>
+ </style>
   
  </body>
-</html>
+</html
